@@ -3,77 +3,103 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Chat Box</title>
+        <title>WhatsApp Chatscreen Clone</title>
         <link href="style.css" rel="stylesheet" type="text/css">
         <link href="fontawesome/css/fontawesome.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="images/icon.png">
     </head>
 
     <body>
+        <div class="content-wrapper">
 
-
-
-        <div class="chat-screen">
-
-            <div class="top-bar">
-                <div class="arrow"><i class="fas fa-angle-left"></i></div>
-                <div class="receiver-image"><img src="images/adwoa.jpg"></div>
-                <div class="user">
-                    <p class="receiver-name">Adwoa</p>
-                    <p class="user-status">Last seen 18:09</p>
+            <header class="status-bar">
+                <div class="left-items">
+                    <div class="back-button"><i class="fas fa-arrow-left"></i></div>
+                    <div class="receiver-image"><img src="images/pal.png" /></div>
+                    <div class="user">
+                        <p class="receiver-name">Homie</p>
+                        <p class="user-status">last seen today at 15:37</p>
+                    </div>
                 </div>
-            </div>
+                <div class="right-items">
+                    <div class="video-call-button"><i class="fas fa-video"></i></div>
+                    <div class="call-button"><i class="fas fa-phone"></i></div>
+                    <div class="ellipsis-button"><i class="fas fa-ellipsis-v"></i></div>
+                </div>
+            </header>
 
-            <div class="log">
+            <main class="chatscreen">
 
-                <div class="message sent">
-                    <div class="user-image"><img src="images/jae.jpg" /></div>
+                <article class="chat-log">
+
+                    <section class="message sent">
+                        <div class="user-image"><img src="images/wess.jpg" /></div>
+                        <div class="chat-info chat-message">
+                            <p class="">Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?</p>
+                            <p class="chat-time">18:01</p>
+                        </div>
+                    </section>
+                    <section class="message received">
+                        <div class="user-image"><img src="images/pal.png" /></div>
+                        <div class="chat-message chat-info">
+                            <p class="">Heyy bro, how u been?</p>
+                            <p class="chat-time">18:02</p>
+                        </div>
+                    </section>
+
+                    <section class="message sent">
+                    <div class="user-image"><img src="images/wess.jpg" /></div>
                     <div class="chat-info chat-message">
-                        <p class="">Hi Adwoa, got some filla for you oooo</p>
+                        <p class="">Hi man</p>
                         <p class="chat-time">18:01</p>
                     </div>
-                </div>
-                <div class="message received">
-                    <div class="user-image"><img src="images/adwoa.jpg" /></div>
-                    <div class="chat-message chat-info">
-                        <p class="">Ehh!! tell me am all ears</p>
-                        <p class="chat-time">18:02</p>
+                    </section>
+                    <section class="message received">
+                        <div class="user-image"><img src="images/pal.png" /></div>
+                        <div class="chat-message chat-info">
+                            <p class="">Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?</p>
+                            <p class="chat-time">18:02</p>
+                        </div>
+                    </section>
+                    <section class="message received">
+                        <div class="user-image"><img src="images/pal.png" /></div>
+                        <div class="chat-message chat-info">
+                            <p class="">Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?Heyy bro, how u been?</p>
+                            <p class="chat-time">18:02</p>
+                        </div>
+                    </section>
+                    <section class="message received">
+                        <div class="user-image"><img src="images/pal.png" /></div>
+                        <div class="chat-message chat-info">
+                            <p class="">Heyy bro, how u been?</p>
+                            <p class="chat-time">18:02</p>
+                        </div>
+                    </section>
+
+                </article>
+
+                <div class="input-area">
+                    <div class="input">
+                        <div class="smiley"><i class="far fa-smile"></i></div>
+                        <div class="text-input">
+                            <textarea placeholder="Type a message"></textarea>
+                        </div>
+                        <div class="attachment">
+                            <i class="fas fa-paperclip"></i>
+                        </div>
+                        <div class="camera">
+                            <i class="fas fa-camera"></i>
+                        </div>
                     </div>
-                </div>
-                <div class="message received">
-                    <div class="user-image"><img src="images/adwoa.jpg" /></div>
-                    <div class="chat-message chat-info">
-                        <p class=""><i class="far fa-smile"></i></p>
-                        <p class="chat-time">18:02</p>
-                    </div>
-                </div>
-                <div class="message received">
-                    <div class="user-image"><img src="images/adwoa.jpg" /></div>
-                    <div class="chat-message chat-info">
-                        <p class="">oh com'n <br> Whats up for real! <i class="far fa-smile"></i></p>
-                        <p class="chat-time">18:02</p>
-                    </div>
-                </div>
-                <div class="message sent">
-                    <div class="user-image"><img src="images/jae.jpg" /></div>
-                    <div class="chat-info chat-message">
-                        <p class="">OH, see you, see you just messing with you</p>
-                        <p class="chat-time">18:01</p>
-                    </div>
-                </div>
-                <div class="message sent">
-                    <div class="user-image"><img src="images/jae.jpg" /></div>
-                    <div class="chat-info chat-message">
-                        <p class="">Ohk, no worries. Well ive gotten a message from Dan for you, but...</p>
-                        <p class="chat-time">18:01</p>
+                    <div class="mic-button">
+                        <button><i class="fas fa-microphone"></i></button>
                     </div>
                 </div>
 
-            </div>
+            </main>
 
         </div>
-        <div class="message-input">
-            <textarea placeholder="Type here..."></textarea>
-        </div>
+
     </body>
 
 </html>
