@@ -134,13 +134,15 @@
     .sent .chat-message {
         background: #e2ffc7;
         order: -1;
-        width: 50%;
+        width: fit-content;
+        max-width: 70%;
     }
 
 
     .received .chat-message {
         background: #ffffff;
-        width: 50%;
+        width: fit-content;
+        max-width: 70%;
     }
 
     .message .user-image {
