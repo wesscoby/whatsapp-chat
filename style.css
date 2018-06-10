@@ -14,8 +14,8 @@
 
     /*-- Body: Container Div --*/
     .content-wrapper {
-        width: 950px;
-        min-width: 400px;
+        max-width: 950px;
+        min-width: 320px;
         height: 600px;
         margin: 25px auto;
 
@@ -23,13 +23,11 @@
 
     /*-- Status Bar --*/
     .status-bar {
-        width: 950px;
+        max-width: 950px;
+        min-width: 320px;
         height: 50px;
         color: white;
         background: #00796a;
-        /*margin-top: -25px;*/
-        /*margin-left: -25px;*/
-        /*margin-right: -25px;*/
         display: flex;
         flex-direction: row;
         justify-content: space-between;
